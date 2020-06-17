@@ -6,7 +6,8 @@ namespace meuAppDotNET
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Alo Mundo do dotnet no linux!!! ;-)");
+            Console.WriteLine("A Hora Atual é " + DateTime.Now);
         }
     }
 }
