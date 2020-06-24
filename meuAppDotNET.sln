@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aplicacaoBancaria", "aplica
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibliotecaCoisasBancarias", "BibliotecaCoisasBancarias\BibliotecaCoisasBancarias.csproj", "{0A666EE9-32F1-4C63-90FC-B2527B99E7C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestesBancarios", "TestesBancarios\TestesBancarios.csproj", "{54264B65-4001-45C9-9EDC-2D08863A7735}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{0A666EE9-32F1-4C63-90FC-B2527B99E7C5}.Release|x64.Build.0 = Release|Any CPU
 		{0A666EE9-32F1-4C63-90FC-B2527B99E7C5}.Release|x86.ActiveCfg = Release|Any CPU
 		{0A666EE9-32F1-4C63-90FC-B2527B99E7C5}.Release|x86.Build.0 = Release|Any CPU
+		{54264B65-4001-45C9-9EDC-2D08863A7735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54264B65-4001-45C9-9EDC-2D08863A7735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54264B65-4001-45C9-9EDC-2D08863A7735}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{54264B65-4001-45C9-9EDC-2D08863A7735}.Debug|x64.Build.0 = Debug|Any CPU
+		{54264B65-4001-45C9-9EDC-2D08863A7735}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{54264B65-4001-45C9-9EDC-2D08863A7735}.Debug|x86.Build.0 = Debug|Any CPU
+		{54264B65-4001-45C9-9EDC-2D08863A7735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54264B65-4001-45C9-9EDC-2D08863A7735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54264B65-4001-45C9-9EDC-2D08863A7735}.Release|x64.ActiveCfg = Release|Any CPU
+		{54264B65-4001-45C9-9EDC-2D08863A7735}.Release|x64.Build.0 = Release|Any CPU
+		{54264B65-4001-45C9-9EDC-2D08863A7735}.Release|x86.ActiveCfg = Release|Any CPU
+		{54264B65-4001-45C9-9EDC-2D08863A7735}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

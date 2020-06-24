@@ -15,19 +15,6 @@ namespace minhaAplicacaoBancaria
             conta.RealizarDeposito(2785, DateTime.Now, "Depósito em terminal AA de Ibatiba");
 
             Console.WriteLine(conta.GetHistoricoDeTransacoes());
-
-            //Testando aqui
-            /*
-            try
-            {
-                var contaInvalida = new ContaBancaria("invalida", -674);
-            }
-            catch(ArgumentOutOfRangeException e)
-            {
-                Console.WriteLine("Exceção pega: Criação de conta com saldo negativo.");
-                Console.WriteLine(e.ToString());
-            }
-            */
         }
     }
 }
