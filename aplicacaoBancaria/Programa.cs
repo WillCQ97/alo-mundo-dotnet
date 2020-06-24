@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using BibliotecaCoisasBancarias;
 
-namespace meuAppDotNET
+namespace minhaAplicacaoBancaria
 {
     class Programa
     {
@@ -11,7 +12,7 @@ namespace meuAppDotNET
             Console.WriteLine($"Conta bancária de número {conta.Numero} criada para {conta.Proprietario} com saldo de {conta.Saldo} reais.");
             
             conta.RealizarSaque(200, DateTime.Now, "Saque em terminal AA de Alegre.");
-            conta.RealizarDeposito(2785, DateTime.Now, "Depósito terminal AA Ibatiba");
+            conta.RealizarDeposito(2785, DateTime.Now, "Depósito em terminal AA de Ibatiba");
 
             Console.WriteLine(conta.GetHistoricoDeTransacoes());
 

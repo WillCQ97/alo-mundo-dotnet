@@ -1,6 +1,6 @@
 using System;
 
-namespace meuAppDotNET
+namespace BibliotecaCoisasBancarias
 {
     public class Transacao
     {
