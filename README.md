@@ -8,13 +8,11 @@ Vídeos tutoriais utilizados como referência:
 
 # Lista de comandos utilizados
 
-- dotnet new classlib -o BibliotecaCoisasBancarias
-- dotnet new console -o aplicacaoBancaria
-- dotnet add reference aplicacaoBancaria.csproj ../BibliotecaCoisasBancarias/BibliotecaCoisasBancarias.csproj 
-- dotnet run
-
-# Observação BibliotecaCoisasBancarias
-Restore failed.
-Post action failed.
-Description: Restore NuGet packages required by this project.
-Manual instructions: Run 'dotnet restore'
+- Cria um arquivo de solução: dotnet new sln -n meuAppDotNET
+- Cria uma biblioteca de códigos: dotnet new classlib -o BibliotecaCoisasBancarias
+- Cria uma aplicação console: dotnet new console -o aplicacaoBancaria
+- Adiciona no projeto da aplicação, a dependência da biblioteca anterior: dotnet add aplicacaoBancaria.csproj reference ../BibliotecaCoisasBancarias/BibliotecaCoisasBancarias.csproj 
+- Adiciona o projeto da aplicação ao arquivo de solução: dotnet sln meuAppDotNET add ./aplicacaoBancaria/aplicacaoBancaria.csproj
+- Adiciona o projeto da biblioteca ao arquivo de solução: dotnet sln meuAppDotNET add ./BibliotecaCoisasBancarias/BibliotecaCoisasBancarias.csproj
+- Adiciona uma dependência a um pacote chamado Humanizer no projeto da biblioteca: dotnet add BibliotecaCoisasBancarias.csproj package Humanizer.Core.pt --version 2.8.26
+- Executa a aplicação console: dotnet run

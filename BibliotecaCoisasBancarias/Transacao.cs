@@ -1,10 +1,16 @@
 using System;
+using Humanizer;
 
 namespace BibliotecaCoisasBancarias
 {
     public class Transacao
     {
         public decimal Valor { get; }
+        public string ValorParaHumanos { 
+            get {
+               return ((int)Valor).ToWords();
+            }
+        }
         public DateTime Data { get; }
         public string Descricao { get; }
 

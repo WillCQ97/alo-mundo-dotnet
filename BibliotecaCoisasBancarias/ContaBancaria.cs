@@ -64,7 +64,7 @@ namespace BibliotecaCoisasBancarias
             
             foreach (var item in transacoes)
             {
-                builder.AppendLine($"{item.Data.ToShortDateString()}\t{item.Valor}\t{item.Descricao}");
+                builder.AppendLine($"{item.Data.ToShortDateString()}\t{item.ValorParaHumanos}\t{item.Descricao}");
             }
 
             return builder.ToString();
