@@ -18,7 +18,7 @@ namespace BibliotecaCoisasBancarias
                 return saldo;
             } 
         }
-        private static int sementeNumeroConta = 1234567890;
+        private static int sementeNumeroConta = 1230;
         private List<Transacao> transacoes = new List<Transacao>();
 
         public ContaBancaria(string nome, decimal saldoInicial)
@@ -64,10 +64,15 @@ namespace BibliotecaCoisasBancarias
             
             foreach (var item in transacoes)
             {
-                builder.AppendLine($"{item.Data.ToShortDateString()}\t{item.ValorParaHumanos}\t{item.Descricao}");
+                builder.AppendLine($"{item.Data.ToShortDateString()}\t{item.Valor}\t{item.Descricao}");
             }
 
             return builder.ToString();
+        }
+
+        override
+        public string ToString(){
+            return "Número: " + this.Numero + ". Proprietário: " + this.Proprietario + ". Saldo: " + this.Saldo + ".";
         }
     }
 }

@@ -7,12 +7,6 @@ namespace TestesBancarios
     public class TestesBasicos
     {
         [Fact]
-        public void Teste1()
-        {
-            Assert.True(true);
-        }
-
-        [Fact]
         public void TesteCriacaoContaSaldoNegativo()
         {
             Assert.Throws<ArgumentOutOfRangeException>(

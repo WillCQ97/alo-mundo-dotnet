@@ -7,7 +7,6 @@ Vídeos tutoriais utilizados como referência:
 
 
 # Lista de comandos utilizados
-
 - Cria um arquivo de solução: `dotnet new sln -n meuAppDotNET`
 - Cria uma biblioteca de códigos: `dotnet new classlib -o BibliotecaCoisasBancarias`
 - Cria uma aplicação console: `dotnet new console -o aplicacaoBancaria`
@@ -19,4 +18,3 @@ Vídeos tutoriais utilizados como referência:
 - Cria um projeto xUnit: `dotnet new xunit -o TestesBancarios`
 - Adiciona o projeto xUnit à solução: `dotnet sln meuAppDotNET.sln add TestesBancarios/TestesBancarios.csproj`
 - Executa o teste especificado: `dotnet test`
-
